@@ -1,0 +1,88 @@
+body {
+  margin: 30px 10px 10px 10px;
+  padding: 0;
+  height: 100%;
+  
+  background-color: black;
+  color: white;
+}
+
+#photo_card_edge {
+  margin-right: 30px;  
+  padding: 2px;
+  
+  background-color: white;
+  
+  float: right; 
+  position: relative;
+}
+
+#photo_card {
+  padding: 25px 25px 25px 25px;
+  
+  color: black;
+  border: 2px solid silver;
+}
+
+#photo {
+  border: 0 solid black;
+}
+
+#clip {
+  position: absolute;
+  right: -12px;
+  top: 50px;
+}
+
+#corner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#name {
+  text-align: center;
+
+  font-size: 2.5em;
+  margin-top: 15px;
+}
+
+#bio {  
+}
+
+th {
+  text-align: center;
+  font-size: 2em;
+  padding: 0.5em 0 0.5em 0;
+}
+
+.title {  
+  font-size: 1em;
+  font-weight: bold;
+  text-align: right;
+  
+  width: 150px;
+  
+  padding-bottom: 0.2em;
+}
+
+.data {  
+  font-size: 1em;
+  padding-left: 1em;
+  text-align: left;
+  
+  
+  padding-bottom: 0.2em;
+}
+
+.orange {
+  color: orange;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
